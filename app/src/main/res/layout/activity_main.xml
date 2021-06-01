@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:fillViewport="true"
+    android:background="@color/garnet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/garnet"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:text="FEAR THE SPEAR"
+            android:textColor="@color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_marginTop="25dp"
+            android:id="@+id/text1"/>
+
+        <TableLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center" android:layout_marginTop="25dp" android:layout_marginRight="10dp" android:layout_marginLeft="10dp">
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="FSU War Chant"
+                android:id="@+id/warChant"/>
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="FSU Victory Song"
+                android:id="@+id/victory"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="FSU Fight Song"
+                android:id="@+id/fightSong"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="FSU Cheer"
+                android:id="@+id/fsuCheer"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="4th Quarter Fanfare"
+                android:id="@+id/qtFanfare"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="Seminole Uprising"
+                android:id="@+id/semUprising"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:text="Gold and Garnett"
+                android:id="@+id/gargold"/>
+
+        </TableLayout>
+
+        <SeekBar
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:id="@+id/seekBar"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:outlineSpotShadowColor="@color/teal_200"
+            android:outlineAmbientShadowColor="@color/white"/>
+
+        <TableLayout
+            android:layout_height="60dp"
+            android:layout_width="120dp"
+            android:layout_gravity="center">
+            <TableRow android:layout_gravity="center">
+                <ImageButton
+                    android:background="@drawable/play"
+                    android:layout_height="60dp"
+                    android:layout_width="60dp"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/play"/>
+                <ImageButton
+                    android:background="@drawable/stop"
+                    android:layout_height="60dp"
+                    android:layout_width="60dp"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/stop"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
